@@ -75,7 +75,7 @@ function clearMarkup() {
 }
 
 function handleError(error) {
-  console.error(error);
+  console.log(error);
   Notify.failure('Something went wrong.Please try again');
 }
 
